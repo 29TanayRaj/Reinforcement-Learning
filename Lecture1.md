@@ -78,24 +78,15 @@
 
 ## Applications of RL
 
-- **Helicopter Control**:
-  - Stanford and Berkeley used RL to train helicopters to perform complex maneuvers, such as flying upside down.
-  - RL enabled finer control than human pilots.
-
-- **Backgammon (TD-Gammon)**:
-  - IBM's Jerry Tesauro trained an RL agent to play backgammon using **self-play**.
-  - Resulted in a program capable of defeating world champion human players.
-
-
-# Notes: Reinforcement Learning Applications and Key Insights
-
 ---
 
-## **1. Helicopter Control**:
-  - Stanford and Berkeley used RL to train helicopters to perform complex maneuvers, such as flying upside down.
-  - RL enabled finer control than human pilots.
+### **1. Helicopter Control: RL in Robotics**
+- Demonstration:
+  - RL agents controlling helicopters, performing complex maneuvers (e.g., flying inverted).
+  - Video example: Reinforcement learning enables precise control of a large, non-human-sized helicopter.
+- Insight: RL excels in solving challenging control problems.
 
-## **2. TD-Gammon: Reinforcement Learning in Backgammon**
+### **2. TD-Gammon: Reinforcement Learning in Backgammon**
 - Jerry Tesauro developed **TD-Gammon**, a reinforcement learning (RL) agent.
 - Achievements:
   - Became the **world's best backgammon player**.
@@ -104,7 +95,7 @@
 
 ---
 
-## **3. Reinforcement Learning in Go**
+### **3. Reinforcement Learning in Go**
 - **Game Complexity**:
   - Go has a **huge branching factor**, making it hard for traditional algorithms.
   - Human players make intuitive leaps to navigate the vast search trees.
@@ -117,7 +108,7 @@
 
 ---
 
-## **4. Robo Soccer: Complex Strategies with RL**
+### **4. Robo Soccer: Complex Strategies with RL**
 - Application: UT Austin's **Robo Soccer Team (Austin Villa)**.
 - Achievements:
   - Champions for several years in the **Humanoid League**.
@@ -130,7 +121,7 @@
 
 ---
 
-## **5. Online Learning and RL in News and Ads**
+### **5. Online Learning and RL in News and Ads**
 - **Online Learning**:
   - Feedback arrives piecemeal, not available a priori.
   - Example: **News Story Selection**:
@@ -140,7 +131,7 @@
       - Trials to optimize story selection with minimal attempts.
       - Natural modeling for problems involving sequential feedback.
 
-- **Ad Selection**:
+### **6. Ad Selection**:
   - Problem: Select ads to display on websites for maximum payoff.
   - Challenges:
     - Selecting the best subset from a set of candidate ads.
@@ -148,14 +139,6 @@
   - Use of RL:
     - Improves ad placement and selection strategies.
     - Forms a core part of **computational advertising**, a complex field combining economic and technical considerations.
-
----
-
-## **6. Helicopter Control: RL in Robotics**
-- Demonstration:
-  - RL agents controlling helicopters, performing complex maneuvers (e.g., flying inverted).
-  - Video example: Reinforcement learning enables precise control of a large, non-human-sized helicopter.
-- Insight: RL excels in solving challenging control problems.
 
 ---
 
