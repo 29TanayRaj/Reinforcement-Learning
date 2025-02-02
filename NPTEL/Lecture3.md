@@ -28,7 +28,7 @@
 
 5. **Formalization**  
    - Set of actions:  
-     $ A = \{1, 2, ..., n\} $
+     $A = \{1, 2, ..., n\}$
    - Each action $A_i$ has an associated probability of success (reward).  
    - The goal is to determine which action is best through repeated trials.
 
