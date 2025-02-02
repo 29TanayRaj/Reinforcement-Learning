@@ -68,11 +68,6 @@
 ### Improving Predictions:
 - To improve the prediction at time `t`, the agent can look ahead to time `t+1` and adjust its strategy accordingly.
 
-
-# Detailed Notes on Reinforcement Learning (Part 2)
-
-## Temporal Difference Learning Recap
-
 - In Temporal Difference (TD) learning, the agent makes predictions about future rewards and adjusts them as new information becomes available.
 - Example: In a game, an agent might initially predict a 60% chance of winning (0.6 probability). After making a move, if the situation worsens, the agent updates its prediction to a lower value (0.55).
 - This process allows the agent to continuously refine its predictions based on experience, adjusting its strategies for better outcomes in future iterations.
@@ -152,8 +147,6 @@
 
 # Temporal Difference Learning and Exploration-Exploitation in RL
 
-The speaker delves into the concepts of **Reinforcement Learning (RL)** and how it applies to games like Tic-Tac-Toe and chess, using **Temporal Difference (TD) Learning**. Here's a breakdown of the key ideas in this part:
-
 ## 1. Waiting Until the End vs. Learning Along the Way
 - In simple games like **Tic-Tac-Toe**, you can wait until the end to update your strategy because the game has a limited number of moves and can be fully analyzed at the end.
 - However, for more complex games like **chess**, you cannot always wait until the end to adjust your strategy. In such cases, you may need to learn during the game, making updates at each step to improve your chances of winning.
@@ -161,6 +154,11 @@ The speaker delves into the concepts of **Reinforcement Learning (RL)** and how 
 ## 2. Temporal Difference (TD) Learning
 - **TD learning** is introduced as a way to update the strategy incrementally while the game is still ongoing, without waiting for the outcome to be determined.
 - The speaker uses an example where the agent (the player) thinks the probability of winning from a certain point is 0.6, but after exploring further, the best possible outcome is found to be 0.3. This discrepancy forces the agent to adjust its belief (lowering the probability of winning from 0.6 to something closer to 0.3).
+- **Methods**
+  - TD ($\lambda$)
+  - Q-Learning
+  - SARSA
+  - Actor-Critic
 
 ## 3. Multiple Ways to Reach a Game State
 - In games like **Tic-Tac-Toe**, there are multiple ways to reach the same board state (based on the sequence of moves), and each path can have different outcomes (some leading to wins, others to losses).
