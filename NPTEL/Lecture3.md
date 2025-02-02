@@ -1,7 +1,7 @@
-## Introduction
+## Introduction to Immediate Reinforcement learning.
 - Immediate RL problems are a simplified version of RL problems where the reward is received immediately after an action.
 - In standard RL, rewards can be delayed (e.g., losing an important chess piece early but only realizing the impact at the end of the game).
-- In immediate RL, every action taken at time $t$ ($A_t$) results in an immediate reward ($R_t$).
+- In immediate RL, every action ($a_t$) taken at time $t$ results in an immediate reward ($R_t$).
 - There is no temporal component: each interaction is independent, with no memory of past states or actions.
 
 ## Characteristics of Immediate RL
